@@ -16,3 +16,7 @@ class Settings:
         self.bullet_width = 15
         self.bullet_height = 3
         self.bullet_color = (60, 60, 60)
+
+        # Alien settings
+        self.alien_speed = 1.0       # how fast aliens move horizontally
+        self.fleet_direction = -1    # -1 = move left (toward ship)
