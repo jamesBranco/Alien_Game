@@ -11,12 +11,15 @@ class Settings:
         self.screen_height = 800
         self.bg_color = (230, 230, 230)
 
-        # Bullet settings (for the projectile)
+        # Bullet settings (laser)
         self.bullet_speed = 5.0
         self.bullet_width = 15
         self.bullet_height = 3
         self.bullet_color = (60, 60, 60)
 
         # Alien settings
-        self.alien_speed = 1.0       # how fast aliens move horizontally
+        self.alien_speed = 1.0       # horizontal speed
         self.fleet_direction = -1    # -1 = move left (toward ship)
+
+        # Scoring
+        self.alien_points = 10
