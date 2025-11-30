@@ -1,7 +1,7 @@
 """
 Program: Alien Invasion (Lab 14)
 Author: Dyemydym (James) Branco Vieira
-Purpose: Extend Lab 13 by adding a Play button, HUD (score), and hiding
+Purpose: Extend Lab 14 by adding a Play button, HUD (score), and hiding
          the cursor while the game is active.
 Date: 2025-11-30
 """
